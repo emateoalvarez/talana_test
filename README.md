@@ -36,5 +36,13 @@ Selecciona el archivo de prueba que deseas ejecutar desde la interfaz de usuario
 
 Observa la ejecución de las pruebas en el navegador Cypress. También puedes ver los resultados en la terminal.
 
+### Ejecutar una prueba específica ###
+Para ejecutar una prueba específica, puedes usar el siguiente comando, reemplazando <nombre-del-archivo> con el nombre del archivo de prueba que deseas ejecutar:
+
+ ```bash
+npx cypress run --spec "cypress/e2e/tests/<nombre-del-archivo>.js"
+ ```
+Este comando ejecutará solo la prueba especificada en modo headless y mostrará los resultados en la terminal.
+
 ## Interpretación de Resultados ##
 Los resultados de las pruebas se mostrarán en la interfaz de usuario de Cypress y en la terminal. Puedes ver qué pruebas han pasado correctamente y cuáles han fallado. Además, Cypress genera capturas de pantalla y videos de las ejecuciones de las pruebas para ayudar en la depuración de errores.
