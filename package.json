@@ -1,0 +1,19 @@
+{
+  "name": "test_cypress_talana",
+  "version": "1.0.0",
+  "description": "technical test Talana",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Mateo Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
